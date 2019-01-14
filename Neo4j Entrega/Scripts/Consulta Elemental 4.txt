@@ -1,0 +1,1 @@
+match (p:Pokemon)-[:ES]->(t:Tipo {nombre:"Agua"})  return p 

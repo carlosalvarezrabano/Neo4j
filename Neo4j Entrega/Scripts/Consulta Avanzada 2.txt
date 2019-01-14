@@ -1,0 +1,1 @@
+match p=shortestPath((ash:Entrenador {nombre:"Ash"})-[*]-(bulbasur:Pokemon {nombre:"Bulbasaur"}))return p 

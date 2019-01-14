@@ -1,0 +1,1 @@
+MATCH (pokemon:Pokemon)<-[:Tiene]-(:Entrenador {nombre:'Caza Bichos'}) RETURN pokemon.nombre AS Nombre 

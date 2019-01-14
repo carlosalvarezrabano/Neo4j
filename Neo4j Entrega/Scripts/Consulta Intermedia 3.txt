@@ -1,0 +1,1 @@
+match (p:Pokemon)-[:EVOLUCIONA_A]->(p1:Pokemon)  return p.nombre, p1.nombre 

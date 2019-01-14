@@ -1,0 +1,1 @@
+match (p:Pokemon)-[:ES]->(t:Tipo) return distinct t.nombre as nombre_tipo, collect(p.nombre) as nombres 

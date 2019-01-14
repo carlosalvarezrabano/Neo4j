@@ -1,0 +1,1 @@
+MATCH (ash:Entrenador {nombre:"Ash"})-[*1..2]-(es) RETURN DISTINCT es 

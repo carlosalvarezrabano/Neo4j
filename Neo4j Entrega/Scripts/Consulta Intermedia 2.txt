@@ -1,0 +1,1 @@
+MATCH(p:Pokemon)-[:ES]->(t:Tipo) WHERE p.numero >= 10 WITH p.nombre AS nombre, p.numero AS numero, COUNT(*) AS total WHERE total > 1 RETURN nombre, numero, total

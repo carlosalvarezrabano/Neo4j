@@ -1,0 +1,1 @@
+MATCH (p:Pokemon) WHERE p.numero > 20 RETURN p.nombre AS Nombre_Pokemon , p.numero AS Numero_Pokemon ORDER BY p.numero DESC 
